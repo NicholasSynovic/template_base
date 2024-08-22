@@ -5,7 +5,7 @@ build-docs:
 	echo "Hello World"
 
 create-dev:
-	echo "Hello World"
+	pre-commit install
 
 create-docs:
 	echo "Hello World"
