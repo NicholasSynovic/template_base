@@ -20,10 +20,12 @@ This will also support *optional* tooling that services like GitHub offer in ord
 The following common tooling is supported:
 
 - [VS Code Dev Containers](.devcontainer/devcontainer.json)
-- [GitHub Community Documents](.github/)
+- [GitHub](.github/)
   - See [this post](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) for more information
-- [GitHub Issue Templates](<>)
-- [GitHub Actions](<>)
+  - [GitHub Discussion Templates](https://docs.github.com/en/discussions/managing-discussions-for-your-community/syntax-for-discussion-category-forms)
+  - [GitHub Issue Templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
+  - [GitHub Pull Request Templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
+  - [GitHub Actions](https://docs.github.com/en/actions/writing-workflows)
 - [Pre-Commit](.pre-commit-config.yaml)
 - [Docker](Dockerfile)
 - [Make](Makefile)
