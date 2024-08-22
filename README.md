@@ -38,4 +38,5 @@ The following common tooling is supported:
 - [Docker](Dockerfile)
 - [Make](Makefile)
 - [Repository Citations](CITATION.cff)
--
+- [Markdown Lint](.markdownlint.json)
+- [MD Format](.mdformat.toml)
