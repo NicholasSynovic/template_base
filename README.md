@@ -28,10 +28,14 @@ The following common tooling is supported:
   - See
     [this post](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
     for more information
+  - [GitHub Actions](.github/actions/)
+  - [GitHub Citations](.github/)
+  - [GitHub CODEOWNERS](.github/CODEOWNERS)
   - [GitHub Discussion Templates](.github/DISCUSSION_TEMPLATE/)
   - [GitHub Issue Templates](.github/ISSUE_TEMPLATE/)
   - [GitHub Pull Request Templates](.github/PULL_REQUEST_TEMPLATE/)
-  - [GitHub Actions](.github/actions/)
 - [Pre-Commit](.pre-commit-config.yaml)
 - [Docker](Dockerfile)
 - [Make](Makefile)
+- [Repository Citations](CITATION.cff)
+-
