@@ -40,4 +40,4 @@ The following common tooling is supported:
 - [Repository Citations](CITATION.cff)
 - [Markdown Lint](.markdownlint.json)
 - [MD Format](.mdformat.toml)
-- [Talo](.talo)
+- [rad](.rad)
