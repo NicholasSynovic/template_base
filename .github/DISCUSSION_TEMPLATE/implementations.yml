@@ -3,13 +3,11 @@ labels: ["implementation"]
 body:
   - type: markdown
     attributes:
-      value: |
-        ## Implementation Reason
+      value: ## Implementation Reason
   - type: textarea
     attributes:
       label: Implementation Reason
-      description: |
-        Why did you decide to implement this template?
+      description: Why did you decide to implement this template?
       placeholder: |
         I implemented this template repo to provide a better developer experience when creating repository for YYY topic | language | tooling | etc.
       render: markdown
@@ -17,8 +15,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: |
-        ## New Features
+      value: ## New Features
   - type: textarea
     attributes:
       label: Features Added To The Template
@@ -32,8 +29,7 @@ body:
       required: false
   - type: markdown
     attributes:
-      value: |
-        ## URL To Implementation
+      value: ## URL To Implementation
   - type: input
     attributes:
       label: Template URL
@@ -42,8 +38,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: |
-        ## Compatible Templating Tooling
+      value: ## Compatible Templating Tooling
   - type: checkboxes
     attributes:
       label: Implementation Compatible Tooling
@@ -53,11 +48,10 @@ body:
         - label: GitLab Templates
   - type: markdown
     attributes:
-      value: |
-        ## Anything Else
+      value: ## Anything Else
   - type: textarea
     attributes:
-      label: Anything Else You'd Like To Say?
+      label: Anything Else You'd Like To Add?
       description: |
         Feel free to add any addiitonal information here
       render: markdown
