@@ -1,7 +1,7 @@
 # https://docs.github.com/en/discussions/managing-discussions-for-your-community/syntax-for-discussion-category-forms
 
-title: "[General] "
-labels: ["General Introduction"]
+title: "[Implementation] "
+labels: ["implementation"]
 body:
   - type: markdown
     attributes:
