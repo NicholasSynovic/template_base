@@ -1,57 +1,65 @@
-# https://docs.github.com/en/discussions/managing-discussions-for-your-community/syntax-for-discussion-category-forms
-
 title: "[Implementation] "
 labels: ["implementation"]
 body:
   - type: markdown
     attributes:
       value: |
-        This is text that will show up in the template!
+        ## Implementation Reason
   - type: textarea
-    id: improvements
     attributes:
-      label: Top 3 improvements
-      description: "What are the top 3 improvements we could make to this project?"
-      value: |
-        1.
-        2.
-        3.
-        ...
-      render: bash
+      label: Implementation Reason
+      description: |
+        Why did you decide to implement this template?
+      placeholder: |
+        I implemented this template repo to provide a better developer experience when creating repository for YYY topic | language | tooling | etc.
+      render: markdown
     validations:
       required: true
   - type: markdown
     attributes:
       value: |
-        ## Markdown header
-        And some more markdown
+        ## New Features
+  - type: textarea
+    attributes:
+      label: Features Added To The Template
+      description: |
+        What features did you add to this template?
+      placeholder: |
+        1. Hello
+        2. World
+      render: markdown
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## URL To Implementation
   - type: input
-    id: has-id
     attributes:
-      label: Suggestions
-      description: A description about suggestions to help you
+      label: Template URL
+      description: A URL pointing to the template
     validations:
       required: true
-  - type: dropdown
-    id: download
+  - type: markdown
     attributes:
-      label: Which area of this project could be most improved?
-      options:
-        - Documentation
-        - Pull request review time
-        - Bug fix time
-        - Release cadence
-    validations:
-      required: true
+      value: |
+        ## Compatible Templating Tooling
   - type: checkboxes
     attributes:
-      label: Check that box!
+      label: Implementation Compatible Tooling
       options:
-        - label: This one!
-          required: true
-        - label: I won't stop you if you check this one, too
+        - label: Giter 8
+        - label: GitHub Templates
+        - label: GitLab Templates
   - type: markdown
     attributes:
       value: |
-        ### The thrilling conclusion
-        _to our template_
+        ## Anything Else
+  - type: textarea
+    attributes:
+      label: Anything Else You'd Like To Say?
+      description: |
+        Feel free to add any addiitonal information here
+      render: markdown
+    validations:
+      required: false
