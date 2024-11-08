@@ -5,7 +5,6 @@
         "vscode": {
             "settings": {},
             "extensions": [
-                "streetsidesoftware.code-spell-checker",
                 "adpyke.codesnap",
                 "Shinotatwu-DS.file-tree-generator",
                 "yzhang.markdown-all-in-one",

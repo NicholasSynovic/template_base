@@ -24,6 +24,7 @@ to discover it themselves.
 The following common tooling is supported:
 
 - [VS Code Dev Containers](.devcontainer/devcontainer.json)
+  - [Documentation](https://containers.dev/implementors/json_reference)
 - [GitHub](.github/)
   - See
     [this post](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
