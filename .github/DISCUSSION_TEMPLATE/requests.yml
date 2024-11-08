@@ -3,7 +3,8 @@ labels: ["feature-request"]
 body:
   - type: markdown
     attributes:
-      value: ## Feature
+      value: |
+      ## Feature
   - type: textarea
     attributes:
       label: Feature Request
@@ -13,7 +14,8 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: ## Feature Links
+      value: |
+      ## Feature Links
   - type: textarea
     attributes:
       label: Links To Feature
