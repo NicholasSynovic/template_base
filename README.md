@@ -16,6 +16,7 @@
       - [Actions](#actions)
       - [Issue Templates](#issue-templates)
       - [Pull Request Templates](#pull-request-templates)
+  - [Project Structure](#project-structure)
 
 ## About
 
@@ -44,10 +45,12 @@ template is primarily intended to build other templates off of it.
   - [File Tree Generator](https://marketplace.visualstudio.com/items?itemName=Shinotatwu-DS.file-tree-generator)
   - [Markdown All In One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
   - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+    - Config file: [.markdownlint.json](.markdownlint.json)
   - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
   - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
   - [Makefile Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools)
   - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+    - Config file: [.editorconfig](.editorconfig)
 
 ### GitHub
 
@@ -55,25 +58,38 @@ template is primarily intended to build other templates off of it.
 - Documentation:
   [https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
 - Features
-  - [Citations](CITATION.cff)
-  - [Code Of Conduct](.github/CODE_OF_CONDUCT.md)
-  - [Code Owners](.github/CODEOWNERS)
-  - [Contributing Guide](.github/CONTRIBUTING.md)
-  - [Funding](.github/FUNDING.yml)
-  - [Governance](.github/GOVERNANCE.md)
-  - [Security](.github/SECURITY.md)
-  - [Support](.github/SUPPORT.md)
+  - Citations: [CITATION.cff](CITATION.cff)
+  - Code Of Conduct: [.github/CODE_OF_CONDUCT.md](.github/CODE_OF_CONDUCT.md)
+  - Code Owners: [.github/CODEOWNERS](.github/CODEOWNERS)
+  - Contributing Guide: [.github/CONTRIBUTING.md](.github/CONTRIBUTING.md)
+  - Funding: [.github/FUNDING.yml](.github/FUNDING.yml)
+  - Governance: [.github/GOVERNANCE.md](.github/GOVERNANCE.md)
+  - Security: [.github/SECURITY.md](.github/SECURITY.md)
+  - Support: [.github/SUPPORT.md](.github/SUPPORT.md)
 
 #### Discussion Templates
 
 - File(s): [.github/DISCUSSION_TEMPLATE/](.github/DISCUSSION_TEMPLATE/)
 - Documentation:
   [https://docs.github.com/en/discussions/managing-discussions-for-your-community/creating-discussion-category-forms](https://docs.github.com/en/discussions/managing-discussions-for-your-community/creating-discussion-category-forms)
--
+- Templates:
+  - Implentation:
+    [.github/DISCUSSION_TEMPLATE/implementations.yml](.github/DISCUSSION_TEMPLATE/implementations.yml)
+  - Requests:
+    [.github/DISCUSSION_TEMPLATE/requests.yml](.github/DISCUSSION_TEMPLATE/requests.yml)
 
 #### Actions
 
-- File(s): [.github/actions/](.github/actions/)
+- File(s): [.github/workflows/](.github/workflows/)
+- Documentation:
+  [https://docs.github.com/en/actions](https://docs.github.com/en/actions)
+- Actions:
+  - Pre-Commit:
+    [.github/workflows/pre-commit.yml](.github/workflows/pre-commit.yml)
+    - Documentation:
+      [https://github.com/pre-commit/action](https://github.com/pre-commit/action)
+  - GitHub Pages Publishing:
+    [.github/workflows/jekyll-gh-pages.yml](.github/workflows/jekyll-gh-pages.yml)
 
 #### Issue Templates
 
@@ -96,3 +112,40 @@ template is primarily intended to build other templates off of it.
 - [MD Format](.mdformat.toml)
 
 - [rad](.rad)
+
+## Project Structure
+
+```shell
+📦template_base
+ ┣ 📂.devcontainer
+ ┃ ┗ 📜devcontainer.json
+ ┣ 📂.github
+ ┃ ┣ 📂DISCUSSION_TEMPLATE
+ ┃ ┃ ┣ 📜implementations.yml
+ ┃ ┃ ┗ 📜requests.yml
+ ┃ ┣ 📂ISSUE_TEMPLATE
+ ┃ ┃ ┗ 📜EXAMPLE.yml
+ ┃ ┣ 📂PULL_REQUEST_TEMPLATE
+ ┃ ┃ ┗ 📜pull_request_template.md
+ ┃ ┣ 📂workflows
+ ┃ ┃ ┗ 📜pre-commit.yml
+ ┃ ┣ 📜CODEOWNERS
+ ┃ ┣ 📜CODE_OF_CONDUCT.md
+ ┃ ┣ 📜CONTRIBUTING.md
+ ┃ ┣ 📜FUNDING.yml
+ ┃ ┣ 📜GOVERNANCE.md
+ ┃ ┣ 📜SECURITY.md
+ ┃ ┗ 📜SUPPORT.md
+ ┣ 📂docs
+ ┃ ┗ 📜.gitkeep
+ ┣ 📜.editorconfig
+ ┣ 📜.markdownlint.json
+ ┣ 📜.mdformat.toml
+ ┣ 📜.pre-commit-config.yaml
+ ┣ 📜.rad.json
+ ┣ 📜CITATION.cff
+ ┣ 📜Dockerfile
+ ┣ 📜LICENSE
+ ┣ 📜Makefile
+ ┗ 📜README.md
+```
