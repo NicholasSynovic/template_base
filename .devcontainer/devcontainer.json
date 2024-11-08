@@ -1,5 +1,3 @@
-// https://containers.dev/implementors/json_reference
-
 {
     "name": "Project Devcontainer",
     "image": "alpine:latest",
@@ -15,6 +13,7 @@
                 "vscode-icons-team.vscode-icons",
                 "ms-azuretools.vscode-docker",
                 "ms-vscode.makefile-tools",
+                "EditorConfig.EditorConfig"
             ]
         }
     }
