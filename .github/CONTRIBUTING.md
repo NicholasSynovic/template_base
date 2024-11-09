@@ -5,6 +5,7 @@
 - [How To Contribute](#how-to-contribute)
   - [Table of Contents](#table-of-contents)
   - [Reporting An Issue](#reporting-an-issue)
+  - [Reporting A Security Vulnerability](#reporting-a-security-vulnerability)
   - [Feature Request](#feature-request)
   - [Reusing This Project](#reusing-this-project)
 
@@ -13,6 +14,12 @@
 Thanks for finding an issue with our software!
 
 Please report the bug as well as how to recreate it in our issue tracker.
+
+## Reporting A Security Vulnerability
+
+Thank you for reporting this to us!
+
+Please see our [security policy](SECURITY.md) for more information.
 
 ## Feature Request
 
