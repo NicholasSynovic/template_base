@@ -12,6 +12,7 @@
     - [Visual Studio Code](#visual-studio-code)
       - [Development Containers](#development-containers)
     - [GitHub](#github)
+      - [GitHub Pages](#github-pages)
       - [Discussion Templates](#discussion-templates)
       - [Actions](#actions)
       - [Issue Templates](#issue-templates)
@@ -76,6 +77,12 @@ template is primarily intended to build other templates off of it.
   - Governance: [.github/GOVERNANCE.md](.github/GOVERNANCE.md)
   - Security: [.github/SECURITY.md](.github/SECURITY.md)
   - Support: [.github/SUPPORT.md](.github/SUPPORT.md)
+
+#### GitHub Pages
+
+- File: [\_config.yml](_config.yml)
+- Documentation:
+  [https://docs.github.com/en/pages](https://docs.github.com/en/pages)
 
 #### Discussion Templates
 
