@@ -20,6 +20,7 @@
     - [Docker](#docker)
     - [Make](#make)
     - [RAD](#rad)
+    - [EditorConfig](#editorconfig)
   - [Template Structure](#template-structure)
 
 ## About
@@ -136,6 +137,11 @@ template is primarily intended to build other templates off of it.
 - Website:
   [https://github.com/NicholasSynovic/tool_rad](https://github.com/NicholasSynovic/tool_rad)
 - File: [.rad.json](.rad.json)
+
+### EditorConfig
+
+- Website: [https://editorconfig.org/](https://editorconfig.org/)
+- File: [.editorconfig](.editorconfig)
 
 ## Template Structure
 
