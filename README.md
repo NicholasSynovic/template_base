@@ -15,7 +15,11 @@
       - [Discussion Templates](#discussion-templates)
       - [Actions](#actions)
       - [Issue Templates](#issue-templates)
-      - [Pull Request Templates](#pull-request-templates)
+    - [Pre-Commit](#pre-commit)
+      - [Hooks](#hooks)
+    - [Docker](#docker)
+    - [Make](#make)
+    - [RAD](#rad)
   - [Template Structure](#template-structure)
 
 ## About
@@ -33,6 +37,10 @@ template is primarily intended to build other templates off of it.
 ## Supported Tooling
 
 ### Visual Studio Code
+
+- Website: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+- File(s):
+  - Development Containers: [.devcontainer/](.devcontainer/)
 
 #### Development Containers
 
@@ -54,6 +62,7 @@ template is primarily intended to build other templates off of it.
 
 ### GitHub
 
+- Website: [https://github.com](https://github.com)
 - File(s): [.github/](.github/)
 - Documentation:
   [https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
@@ -94,24 +103,39 @@ template is primarily intended to build other templates off of it.
 #### Issue Templates
 
 - File(s): [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/)
+- Templates:
+  - Bug Reports:
+    [.github/ISSUE_TEMPLATE/bug-report.yml](.github/ISSUE_TEMPLATE/bug-report.yml)
 
-#### Pull Request Templates
+### Pre-Commit
 
-- File(s): [.github/PULL_REQUEST_TEMPLATE/](.github/PULL_REQUEST_TEMPLATE/)
+- Website: [https://pre-commit.com/](https://pre-commit.com/)
+- File: [.pre-commit.yaml](.pre-commit.yaml)
 
-- [Pre-Commit](.pre-commit-config.yaml)
+#### Hooks
 
-- [Docker](Dockerfile)
+- [mdformat](https://github.com/executablebooks/mdformat)
+  - Config: [.mdformat.toml](.mdformat.toml)
 
-- [Make](Makefile)
+### Docker
 
-- [Repository Citations](CITATION.cff)
+- Website: [https://www.docker.com/](https://www.docker.com/)
+- File: [Dockerfile](Dockerfile)
+- Base image: [alpine:latest](https://hub.docker.com/_/alpine/)
 
-- [Markdown Lint](.markdownlint.json)
+### Make
 
-- [MD Format](.mdformat.toml)
+- Website: [https://makefiletutorial.com/](https://makefiletutorial.com/)
+- File: [Makefile](Makefile)
+- Targets:
+  - `build`
+  - `create-dev`
 
-- [rad](.rad)
+### RAD
+
+- Website:
+  [https://github.com/NicholasSynovic/tool_rad](https://github.com/NicholasSynovic/tool_rad)
+- File: [.rad.json](.rad.json)
 
 ## Template Structure
 
@@ -127,10 +151,9 @@ Generated with
  ┃ ┃ ┣ 📜implementations.yml
  ┃ ┃ ┗ 📜requests.yml
  ┃ ┣ 📂ISSUE_TEMPLATE
- ┃ ┃ ┗ 📜EXAMPLE.yml
- ┃ ┣ 📂PULL_REQUEST_TEMPLATE
- ┃ ┃ ┗ 📜pull_request_template.md
+ ┃ ┃ ┗ 📜bug-report.yml
  ┃ ┣ 📂workflows
+ ┃ ┃ ┣ 📜jekyll-gh-pages.yml
  ┃ ┃ ┗ 📜pre-commit.yml
  ┃ ┣ 📜CODEOWNERS
  ┃ ┣ 📜CODE_OF_CONDUCT.md
