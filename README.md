@@ -58,9 +58,9 @@ template is primarily intended to build other templates off of it.
 - Documentation:
   [https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
 - Features
-  - Citations: [CITATION.cff](CITATION.cff)
   - Code Of Conduct: [.github/CODE_OF_CONDUCT.md](.github/CODE_OF_CONDUCT.md)
   - Code Owners: [.github/CODEOWNERS](.github/CODEOWNERS)
+  - Citations: [CITATION.cff](CITATION.cff)
   - Contributing Guide: [.github/CONTRIBUTING.md](.github/CONTRIBUTING.md)
   - Funding: [.github/FUNDING.yml](.github/FUNDING.yml)
   - Governance: [.github/GOVERNANCE.md](.github/GOVERNANCE.md)
