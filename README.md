@@ -16,7 +16,7 @@
       - [Actions](#actions)
       - [Issue Templates](#issue-templates)
       - [Pull Request Templates](#pull-request-templates)
-  - [Project Structure](#project-structure)
+  - [Template Structure](#template-structure)
 
 ## About
 
@@ -113,7 +113,10 @@ template is primarily intended to build other templates off of it.
 
 - [rad](.rad)
 
-## Project Structure
+## Template Structure
+
+Generated with
+[File Tree Generator](https://marketplace.visualstudio.com/items?itemName=Shinotatwu-DS.file-tree-generator)
 
 ```shell
 📦template_base
